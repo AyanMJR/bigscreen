@@ -40,11 +40,11 @@ const result = (data) => {
             <div class="d-flex flex-row justify-content-around card-footer">
                 <div class="mx-3 d-flex flex-column align-items-center">
                     <h5>${data.imdbRating}/10</h5>
-                    <h5>IMDB</h5>
+                    <h6>IMDB</h6>
                 </div>
                 <div class="mx-3 d-flex flex-column align-items-center">
                     <h5>${data.imdbVotes}</h5>
-                    <h5>IMDB Votes</h5>
+                    <h6>IMDB Votes</h6>
                 </div>
             </div>
         </div>`;
