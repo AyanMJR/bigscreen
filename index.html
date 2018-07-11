@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BigScreen</title>
+</head>
+<body>
+    <div class="container border-bottom border-secendary">
+        <h1>BigScreen</h1>
+    </div>
+    <div class="container">
+        <div class="row m-3">
+            <div class="pr-2 pb-1 col-12 col-md-2">
+                <input type="text" class="w-100 shadow" id="imdbID" placeholder="IMDB ID">
+            </div>
+            <div class="pr-2 pb-1 col-12 col-md-6">
+                <input type="text" class="w-100 shadow" id="title" placeholder="Movie Title">
+            </div>
+            <div class="col-12 col-md-4">
+                <input type="text" class="w-50 shadow" id="year" placeholder="Year">
+                <button class="btn btn-warning" id="search"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="collapse" id="loader">
+            <img class="" src="img/ajax-loader.gif" alt="">
+        </div>
+    </div>
+    <div class="container" id="warning">
+            <div class="alert alert-warning collapse" role="alert">
+            </div>
+    </div>
+    <div class="container" id="display"></div>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
