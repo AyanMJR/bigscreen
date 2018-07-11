@@ -1,5 +1,5 @@
 const generateUrl = (title, imdbID, releaseDate) => {
-    let searchUrl = 'http://www.omdbapi.com/?apikey=91c96f78';
+    let searchUrl = 'https://www.omdbapi.com/?apikey=91c96f78';
     if(title !== '') {
         searchUrl = searchUrl + '&t=' + title;
     }
